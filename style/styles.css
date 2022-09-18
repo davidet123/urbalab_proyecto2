@@ -6,17 +6,25 @@
   --verde: #C7F0BD
 }
 
-body{
+
+/* .bg {
   margin: 0;
   background-image: url("../img/portada.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   color: #b3cdd156
-  
+} */
+
+.bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/portada.webp");
+  background-attachment: fixed;
 }
 
 .fondo {
@@ -24,6 +32,8 @@ body{
   background: rgba(39,62,84,0.82);
   overflow: hidden;
   height: 100%;
+  width: 100%;
+  margin: 0;
   z-index: 2;  
   
 }
