@@ -85,6 +85,35 @@
   color:#000;
 }
 
+.separador1 {
+  height: 490px;
+  overflow: hidden;
+  background-image: url(../img/salon1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Footer */
+
+footer {
+  width: 80%;
+  height: 50px;
+  background-color: var(--marron);
+  /* background-color: black; */
+  color: white;
+  position: relative;
+  margin: 0 auto;
+  
+}
+
+footer .copy {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} 
 
 
 
