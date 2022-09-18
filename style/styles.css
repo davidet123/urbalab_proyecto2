@@ -6,16 +6,7 @@
   --verde: #C7F0BD
 }
 
-
-/* .bg {
-  margin: 0;
-  background-image: url("../img/portada.webp");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
-  color: #b3cdd156
-} */
-
+/* Fondo */
 .bg {
   z-index: -1;
   position: fixed;
@@ -39,6 +30,40 @@
 }
 
 
+
+/* Helpers */
+
+.activo {
+  border-bottom: 1px solid black;
+}
+
+.separador {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.separador img {
+  padding: 0;
+}
+
+.linea{
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  background-color: #b3cdd1a8;
+  color: white;
+}
+
+/* Home */
+
 .encabezado {
   width: 80%;
   margin: 0 auto;
@@ -55,58 +80,24 @@
   padding: 40px 0 80px 0;
 }
 
-
-
 .nav a {
   text-decoration: none;
-  color:#000
+  color:#000;
 }
 
-.separador {
+
+
+
+
+/* Carta */
+
+
+
+.carta-bg {
   width: 80%;
   margin: 0 auto;
+  background-color: #ffffff;
 }
-
-.separador img {
-  padding: 0;
-}
-.linea{
-  width: 60%;
-  margin: 0 auto;
-  border-bottom: 1px solid white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.contenedor {
-  width: 80%;
-  padding: 0 20px 0 20px;
-  background-color: #b3cdd1a8;
-  color: white;
-}
-
-.horario {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 20px 0 20px;
-  background-color: #b3cdd1a8;
-  color: white;
-
-
-}
-.carta {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 20px 0 20px;
-  background-color: #b3cdd1a8;
-}
-
-.contacto {
-  width: 80%;
-  margin: 0 auto;
-  background-color: #b3cdd1a8;
-}
-
 
 
 
