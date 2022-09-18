@@ -99,8 +99,12 @@
   background-color: #ffffff;
 }
 
+/* Contacto */
 
-
+.contacto-bg a {
+  text-decoration: none;
+  color: white;
+}
 
 
 
