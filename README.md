@@ -43,7 +43,33 @@ Posteriormente se han modificado para darle transparencias.
 ## Imagen fija de fondo
 
 
+El navegador Safari para movil, no permite poner 
+```
+background-attachment: fixed;
+```
 
+en la etiqueta body, por lo que se ha creado un div
+```
+<div class="bg"></div> <!-- Imagen fondo -->
+```
+
+    
+    
+En el que se incluye una solición para incluir la imagen fija
+
+```
+ .bg {
+      z-index: -1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url("../img/portada.webp");
+      background-attachment: fixed;
+    }
+```
+   
 
 
 
